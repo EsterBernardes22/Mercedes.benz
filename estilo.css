@@ -39,7 +39,7 @@ body, main {
 }
 
 .nav li {
-  margin-right: 20px; /* Espaçamento entre os itens da lista */
+  margin-right: -110px; /* Espaçamento entre os itens da lista */
   font-size: 30px;
   font-weight:400 ;  
 }
