@@ -451,4 +451,38 @@ font-size: 20px;
 left: 5px;
 top: 200px;
 }
+/* Estilo para a div externa */
+.ul2 {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para a div interna */
+.li2 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para a lista dentro da div interna */
+.ul2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para cada item da lista dentro da div interna */
+.ul2 li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o primeiro item da lista dentro da div interna */
+.ul2 li:first-child {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilo para alternar as cores de fundo da lista dentro da div interna */
+.ul2 li:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
